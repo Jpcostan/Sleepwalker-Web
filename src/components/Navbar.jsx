@@ -6,10 +6,12 @@ import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
-  // { label: "Features", href: "#features", ariaLabel: "Features" },
+  { label: "Features", href: "#features", ariaLabel: "Features" },
   // { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-  { label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
+  // { label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
   { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
+  { label: "Contact", href: "#Contact", ariaLabel: "contat" },
+  
 ];
 
 export const Navbar = () => {
