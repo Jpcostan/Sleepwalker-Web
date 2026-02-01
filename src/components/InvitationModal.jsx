@@ -23,24 +23,28 @@ export const InvitationModal = ({ setIsOpen }) => (
           <div className="flex relative">
             <div className="w-1/2 hidden lg:inline">
               <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-white">
-                Subscribe Now
+                Let's Build
               </h2>
               <h2 className="text-5xl font-bold tracking-normal text-customSecondary">
-                Winter is coming
+                Something Great
               </h2>
 
               <ul className="mb-6 text-white mt-12">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Vestibulum viverra</span>
+                  <span>Free consultation call</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Morbi mollis metus pretium</span>
+                  <span>Custom quote within 24 hours</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Etiam lectus nunc, commodo</span>
+                  <span>No obligation, no pressure</span>
+                </li>
+                <li className="mb-4 flex">
+                  <CheckArrowIcon />
+                  <span>Expert AI automation advice</span>
                 </li>
               </ul>
             </div>
@@ -50,31 +54,60 @@ export const InvitationModal = ({ setIsOpen }) => (
                   <TailcastLogo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-3xl">
-                  Tailcast
+                  Sleepwalker
                 </div>
               </div>
 
               <h3 className="mb-7 text-2xl text-white font-bold leading-snug text-center">
-                Join 3,953 other developers
+                Get Your Free Quote
               </h3>
-              <div className="flex flex-wrap -m-2">
+              <form 
+                className="flex flex-wrap -m-2 w-full"
+                action="https://formspree.io/f/your-form-id"
+                method="POST"
+              >
                 <div className="w-full sm:w-4/5 p-2 mx-auto">
                   <input
-                    className="px-4 py-4 w-full text-gray-500 font-medium text-center placeholder-gray-500 outline-none border bg-gray-300 border-gray-300 rounded-lg focus:ring focus:ring-indigo-300"
-                    id="newsletterInput3-1"
+                    className="px-4 py-4 w-full text-gray-500 font-medium placeholder-gray-500 outline-none border bg-gray-300 border-gray-300 rounded-lg focus:ring focus:ring-indigo-300"
+                    name="name"
                     type="text"
-                    placeholder="Your email address"
+                    placeholder="Your name"
+                    required
                   />
+                </div>
+                <div className="w-full sm:w-4/5 p-2 mx-auto">
+                  <input
+                    className="px-4 py-4 w-full text-gray-500 font-medium placeholder-gray-500 outline-none border bg-gray-300 border-gray-300 rounded-lg focus:ring focus:ring-indigo-300"
+                    name="email"
+                    type="email"
+                    placeholder="Your email address"
+                    required
+                  />
+                </div>
+                <div className="w-full sm:w-4/5 p-2 mx-auto">
+                  <textarea
+                    className="px-4 py-4 w-full text-gray-500 font-medium placeholder-gray-500 outline-none border bg-gray-300 border-gray-300 rounded-lg focus:ring focus:ring-indigo-300 resize-none"
+                    name="message"
+                    rows="3"
+                    placeholder="Tell us about your project..."
+                    required
+                  ></textarea>
                 </div>
                 <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
                   <button
                     className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out duration-200"
-                    type="button"
+                    type="submit"
                   >
-                    Join Now
+                    Send Request
                   </button>
                 </div>
-              </div>
+              </form>
+              <p className="mt-4 text-gray-400 text-sm text-center">
+                Or email us directly at{" "}
+                <a href="mailto:contact@sleepwalkersoft.com" className="text-customSecondary hover:underline">
+                  contact@sleepwalkersoft.com
+                </a>
+              </p>
             </div>
             <div
               className="fixed top-6 right-6 z-50 w-5 h-5 cursor-pointer"

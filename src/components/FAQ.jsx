@@ -3,24 +3,29 @@ import { motion } from "framer-motion";
 
 const FAQData = [
   {
-    question: "Can I upgrade or downgrade my plan at any time?",
+    question: "How long does it take to build a custom AI agent or bot?",
     answer:
-      "Yes, you can easily upgrade or downgrade your plan at any time. Simply navigate to the account settings in your dashboard and choose the desired plan. The changes will be reflected immediately, and any adjustments in pricing will be applied on your next billing cycle. Our support team is more than happy to provide guidance and recommendations.",
+      "Simple chatbots and automations typically take 1-2 weeks. More complex AI agents with multiple integrations usually take 2-4 weeks. Enterprise solutions vary based on scope. We'll give you a clear timeline during our free consultation.",
   },
   {
-    question: "How to claim your 25% discount offer?",
+    question: "What platforms do you build for?",
     answer:
-      "To claim your 25% discount, simply sign up for an account and enter the promotional code at checkout. The discount will be applied automatically to your purchase.",
+      "We build AI agents and bots for Telegram, Discord, Slack, WhatsApp, websites, and custom platforms. We also create workflow automations using Zapier, n8n, Make.com, and custom code integrations with any API.",
   },
   {
-    question: "What's your refund policy?",
+    question: "Do you provide ongoing support and maintenance?",
     answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
+      "Yes! All projects include a support period (30-90 days depending on the package). We also offer monthly retainers for ongoing maintenance, updates, and new feature development. Your automation keeps working even after we hand it off.",
   },
   {
-    question: "How to get support for the product?",
+    question: "What if I'm not sure what I need?",
     answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
+      "That's what our free consultation is for. We'll discuss your business processes, identify automation opportunities, and recommend the best approach. No pressure, no obligation—just honest advice on how AI can help your business.",
+  },
+  {
+    question: "How much does it cost to run an AI agent?",
+    answer:
+      "Running costs depend on usage. Simple bots might cost $5-20/month in API fees. More complex AI agents with heavy usage might be $50-200/month. We'll estimate operational costs upfront and help you optimize for your budget.",
   },
 ];
 
